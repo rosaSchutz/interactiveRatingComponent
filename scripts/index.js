@@ -32,13 +32,15 @@ const updateCard = (value) => {
   `;
 };
 
-buttonSubmit.addEventListener('click', (event) => {
-  event.preventDefault();
-  for (const buttonScoreNode of buttonScore) {
-    buttonScoreNode.addEventListener('click', (event) => {
+
+for (const buttonScoreNode of buttonScore) {
+  buttonScoreNode.addEventListener('click', (event) => {
+    event.preventDefault();
+    selectedValue = event.target.textContent;
+    buttonSubmit.addEventListener('click', (event) => {
       event.preventDefault();
-      selectedValue = event.target.textContent;
       updateCard(selectedValue);
     });
-  }
-});
+  });
+}
+
