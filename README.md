@@ -53,4 +53,4 @@ Aprendí la diferencia entre hoover y focus, recordar nuevamente como hacer un b
 ## Author
 
 - Website - [Rosa Piñeros](https://portfolio-rosa-pineros.vercel.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/rosaSchutz)
+- Frontend Mentor - [@rosaSchutz](https://www.frontendmentor.io/profile/rosaSchutz)
